@@ -2,7 +2,7 @@ import React from "react"
 
 const skillset = () => {
     return (
-        <div class="skillsetbox">
+        <div id="skillset" class="skillsetbox">
             <section>
                 <h2>Skill set</h2>
                 <p>Here's a list of the experience I have with programming languages and technologies</p>

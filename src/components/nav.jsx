@@ -1,5 +1,4 @@
 import React from "react"
-import { Link, animateScroll as scroll } from "react-scroll";
 
 const navbar = () => {
     return (
@@ -7,17 +6,11 @@ const navbar = () => {
             <div class="navbox">
                 <ul class="navlist nobullets">
                     <li class="navitem">
-                        <Link
-                            activeClass="active"
-                            to="aboutme"
-                            spy={true}
-                            smooth={true}
-                            offset={-70}
-                            duration={500}>
-                            About me
-                        </Link>
+                        <a href="#aboutme">About me</a>
                     </li>
-                    <li class="navitem">Skill set</li>
+                    <li class="navitem">
+                        <a href="#skillset">Skill set</a>
+                    </li>
                 </ul>
             </div>
         </nav>

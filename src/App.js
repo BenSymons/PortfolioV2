@@ -6,14 +6,14 @@ import Skillset from "./components/Skillset"
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
       <Navbar/>
+      <header className="App-header">
         <div class="frontpage">
           <h1>Junior fullstack developer Ben Symons</h1>
           <img id="profilepic" alt="My profile" src = "/images/code background square.png"></img>
         </div>
       </header>
-      <Aboutme title="aboutme"/>
+      <Aboutme />
       <Skillset/>
     </div>
   );
