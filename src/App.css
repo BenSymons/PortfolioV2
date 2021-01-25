@@ -62,6 +62,14 @@ a{
   background-color: #474f61;
 }
 
+.projectslot{
+  display: flex;
+}
+
+img{
+  max-width: 20%;
+}
+
 ul{
   text-align: left;
 }

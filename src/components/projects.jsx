@@ -28,6 +28,13 @@ const projects = () => {
                 </p>
                 <img src="./images/Rick&Mortypic.png"></img>
             </div>
+            <div class="projectslot">
+                <h2>Antique shop back end</h2>
+                <p>This is the backend for a database for a fictitious antiques shop. It uses an SQL (postgres) database and an MVC
+                structured backend using Knex as a framework to help query the database.
+                </p>
+                <img src="./images/Treasurespic.png"></img>
+            </div>
         </section>
     </div>
     )
