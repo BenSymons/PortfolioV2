@@ -58,6 +58,10 @@ a{
   background-color: #343842;
 }
 
+#projectbox{
+  background-color: #474f61;
+}
+
 ul{
   text-align: left;
 }
@@ -100,7 +104,7 @@ section{
   display: inline;
   border-radius: 7px;
   background-color: lightgrey;
-  box-shadow:  0 4px 8px 0  rgb(0, 83, 83);
+  box-shadow:  0 5px 5px 0  rgb(0, 83, 83), ;
   margin-left: 20px;
   margin-right: 20px;
   padding: 4px 10px;

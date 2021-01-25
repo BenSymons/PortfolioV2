@@ -11,6 +11,9 @@ const navbar = () => {
                     <li class="navitem">
                         <a href="#skillset">Skill set</a>
                     </li>
+                    <li class="navitem">
+                        <a href="#projects">Projects</a>
+                    </li>
                 </ul>
             </div>
         </nav>

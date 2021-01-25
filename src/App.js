@@ -2,6 +2,7 @@ import './App.css';
 import Navbar from "./components/nav"
 import Aboutme from "./components/aboutme"
 import Skillset from "./components/Skillset"
+import Projects from "./components/projects"
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       </header>
       <Aboutme />
       <Skillset/>
+      <Projects/>
     </div>
   );
 }
