@@ -10,7 +10,7 @@ function App() {
       <Navbar/>
       <header className="App-header">
         <div class="frontpage">
-          <h1>Junior fullstack developer Ben Symons</h1>
+          <h1 id="headline">Junior fullstack developer Ben Symons</h1>
           <img id="profilepic" alt="My profile" src = "/images/code background square.png"></img>
         </div>
       </header>
