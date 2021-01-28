@@ -6,6 +6,9 @@ const navbar = () => {
             <div class="navbox">
                 <ul class="navlist nobullets">
                     <li class="navitem">
+                        <a class="navlink" href="#top">Home</a>
+                    </li>
+                    <li class="navitem">
                         <a class="navlink" href="#aboutme">About me</a>
                     </li>
                     <li class="navitem">
@@ -13,6 +16,9 @@ const navbar = () => {
                     </li>
                     <li class="navitem">
                         <a class="navlink" href="#projects">Projects</a>
+                    </li>
+                    <li class="navitem">
+                        <a class="navlink" href="#contactbox">Contact me</a>
                     </li>
                 </ul>
             </div>

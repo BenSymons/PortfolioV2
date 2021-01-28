@@ -157,7 +157,7 @@ section{
   align-items: center;
   background-color: rgb(92, 213, 243);
   background-image: linear-gradient(rgb(92, 213, 243),rgb(92, 213, 243), rgb(49, 110, 126));
-  position:fixed;
+  position: fixed;
 }
 
 .navitem{
@@ -180,4 +180,8 @@ section{
 
 html {
   scroll-behavior: smooth;
+}
+
+#contactbox{
+  background-color: #343842;
 }
