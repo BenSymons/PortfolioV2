@@ -4,7 +4,7 @@ const skillset = () => {
     return (
         <div id="skillset" class="skillsetbox">
             <section>
-                <h2>Skill set</h2>
+                <h1>Skill set</h1>
                 <p>Here's a list of the experience I have with programming languages and technologies</p>
                 <div class="skillsbox">
                     <div class="skills">

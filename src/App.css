@@ -9,6 +9,19 @@
   }
 }
 
+p{
+  color: white;
+  font-size: 18pt;
+}
+
+h1{
+  font-size: 28pt;
+}
+
+h2{
+  font-size: 22pt;
+}
+
 .frontpage{
   margin-top: auto;
   margin-bottom: auto;
@@ -27,6 +40,7 @@
 #headline{
   text-shadow: 2px 2px 5px grey;
   transition: 800ms;
+  font-size: 48pt;
 }
 
 #headline:hover{
@@ -60,7 +74,7 @@
 }
 
 .skills{
-  padding: 100px;
+  padding: 40px;
   border: solid grey;
   background-color: grey;
   border-radius: 25px;
@@ -117,6 +131,23 @@ section{
 
 .aboutmebox{
   background-color: #474f61;
+}
+
+.aboutmecontent{
+  display: flex;
+}
+
+.photo{
+  max-width: 100%;
+  border-radius: 10px;
+  margin: 5px;
+  padding: 20px;
+  background-color: grey;
+}
+
+.gallery{
+  display: flex;
+  flex-direction: column;
 }
 
 .nav{
