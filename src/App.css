@@ -22,6 +22,10 @@ h2{
   font-size: 22pt;
 }
 
+h3{
+  font-size: 20pt;
+}
+
 .frontpage{
   margin-top: auto;
   margin-bottom: auto;
@@ -74,7 +78,7 @@ h2{
 }
 
 .skills{
-  padding: 40px;
+  padding: 10px;
   border: solid grey;
   background-color: grey;
   border-radius: 25px;
@@ -85,6 +89,10 @@ h2{
 
 .skillsetbox{
   background-color: #343842;
+}
+
+.skill{
+  font-size: 16pt;
 }
 
 #projectbox{
