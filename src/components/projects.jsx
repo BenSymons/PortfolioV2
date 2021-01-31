@@ -5,7 +5,7 @@ const projects = () => {
         <section id="projects">
             <h1>Projects</h1>
             <div class="projectslot">
-                <div class="projectcaption">
+                <div>
                     <h2>Mates Rates</h2>
                     <p>This is a mobile app used to rate and review restaurants that also has some social networking aspects.
                     It uses React Native for the front end, and MongoDB and GraphQL for the back end. The whole project was
@@ -25,7 +25,7 @@ const projects = () => {
                 <img class="projectimg" src="./images/Mates rates pic.png" alt="a restaurant rating phone app"></img>
             </div>
             <div class="projectslot">
-                <div class="projectcaption">
+                <div>
                     <h2>NC news</h2>
                     <p>This is a full stack news/forum application that I made. It uses SQL (postgres) and a Restful API in the backend
                     to store and manage the data. For the frontend, I used react and CSS.
@@ -46,7 +46,7 @@ const projects = () => {
                 <img class="projectimg" src="./images/NCnewspic.png" alt="a news website"></img>
             </div>
             <div class="projectslot">
-                <div class="projectcaption">
+                <div>
                     <h2>Rick and Morty fan site</h2>
                     <p>This is a simple fan site for the program Rick and Morty. It uses a third party API with a GraphQL endpoint
                     and React with CSS for the front end. On the app, there are different pages which lists characters, locations and
@@ -63,7 +63,7 @@ const projects = () => {
                 <img class="projectimg" src="./images/Rick&Mortypic.png" alt="a Rick and Morty fan website"></img>
             </div>
             <div class="projectslot">
-                <div class="projectcaption">
+                <div>
                     <h2>Antique shop back end</h2>
                     <p>This is the backend for a database for a fictitious antiques shop. It uses an SQL (postgres) database and an MVC
                     structured backend using Knex as a framework to help query the database.

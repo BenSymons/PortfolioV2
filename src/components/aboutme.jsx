@@ -6,7 +6,7 @@ const aboutme = () => {
             <section>
                 <h1>About me</h1>
                 <div class="aboutmecontent">
-                    <p class="text">I'm a former teacher who tried his hand at coding and ended up really enjoying it.
+                    <p>I'm a former teacher who tried his hand at coding and ended up really enjoying it.
                     When I taught, I used to handle assessment data; grades, tests scores, things like that.
                     To do this, I mainly used Excel and I was amazed at how much you can do with formulae and functions.
                     I ended up automating all sorts of things which saved me time and was very satisfying to do.
