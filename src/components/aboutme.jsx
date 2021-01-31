@@ -15,9 +15,9 @@ const aboutme = () => {
                     my new career as a web developer or a software developer and I can't wait to get started.
                     <br />
                         <br />
-                    Despite being relatively inexperienced, I have already learned many valuable programming skills.
+                    I have already learned many valuable programming skills.
                     I've learned NodeJS thoroughly and can build basic servers using both promises and callback functions.
-                    I know SQL and can use SQL to create back end applications and APIs as well as being able to use
+                    I know SQL and can use it to create back end applications and APIs as well as being able to use
                     third party APIs. I have also made front end and full stack applications using React, GraphQL and
                     CSS. Have a look at the projects section of this website to see examples of some of my work.
                     <br />

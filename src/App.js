@@ -4,10 +4,12 @@ import Aboutme from "./components/aboutme"
 import Skillset from "./components/skillset"
 import Projects from "./components/projects"
 import Contactme from "./components/contact"
+import Burger from "./components/menu"
 
 function App() {
   return (
     <div className="App">
+      <Burger/>
       <Navbar/>
       <header className="App-header" id="top">
         <div class="frontpage">

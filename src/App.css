@@ -114,6 +114,12 @@ h3{
   font-size: 16pt;
 }
 
+@media only screen and (max-width: 800px) {
+  .skill{
+    font-size: 12pt;
+  }
+}
+
 #projectbox{
   background-color: #474f61;
 }
@@ -132,10 +138,14 @@ h3{
     flex-direction: column;
     margin: 10px 0px;
   }
+  .projectimg{
+    min-width: 100%;
+    align-self: center;
+  }
 }
 
 .projectimg{
-  max-width: 100%;
+  max-width: 60%;
   margin: 15px;
 }
 
@@ -200,6 +210,12 @@ section{
   background-color: rgb(92, 213, 243);
   background-image: linear-gradient(rgb(92, 213, 243),rgb(92, 213, 243), rgb(49, 110, 126));
   position: fixed;
+}
+
+@media only screen and (max-width: 800px) {
+  .nav{
+    display: none;
+  }
 }
 
 .navitem{
