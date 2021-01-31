@@ -3,12 +3,6 @@
   color: white;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 p{
   color: white;
   font-size: 18pt;
@@ -47,6 +41,12 @@ h3{
   font-size: 48pt;
 }
 
+@media only screen and (max-width: 800px) {
+  #headline{
+    font-size: 32pt;
+  }
+}
+
 #headline:hover{
   color: cyan;
   transition: 800ms;
@@ -75,6 +75,18 @@ h3{
   border-radius: 25px;
   box-shadow: black 30px 30px 30px;
   margin: auto;
+}
+
+@media only screen and (max-width: 800px) {
+  .skillsbox{
+    flex-direction: column;
+    border: 20px;
+  }
+  .skills{
+    margin: 20px 5px;
+    padding: 2px;
+
+  }
 }
 
 .skills{
@@ -120,6 +132,7 @@ ul{
 section{
   display: flex;
   flex-direction: column;
+  width: 100vw;
   justify-content: center;
   min-height: 90vh;
   padding-top: 10vh;
@@ -160,7 +173,7 @@ section{
 
 .nav{
   height: 10vh;
-  width: 100%;
+  width: 100vw;
   display: flex;
   align-items: center;
   background-color: rgb(92, 213, 243);
@@ -175,9 +188,9 @@ section{
   background-color: rgb(0, 74, 109);
   box-shadow:  0 5px 5px 0  rgb(0, 83, 83), ;
   margin-left: 5px;
-  margin-right: 20px;
+  margin-right: 5px;
   padding: 4px 10px;
-  font-size: 20pt;
+  font-size: 12pt;
   transition: 1s;
 }
 
