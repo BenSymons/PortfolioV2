@@ -2,23 +2,23 @@ import React from "react"
 
 const navbar = () => {
     return (
-        <nav class="nav">
-            <div class="navbox">
-                <ul class="navlist nobullets">
-                    <li class="navitem">
-                        <a class="navlink" href="#top">Home</a>
+        <nav className="nav">
+            <div className="navbox">
+                <ul className="navlist nobullets">
+                    <li className="navitem">
+                        <a className="navlink" href="#top">Home</a>
                     </li>
-                    <li class="navitem">
-                        <a class="navlink" href="#aboutme">About me</a>
+                    <li className="navitem">
+                        <a className="navlink" href="#aboutme">About me</a>
                     </li>
-                    <li class="navitem">
-                        <a class="navlink" href="#skillset">Skill set</a>
+                    <li className="navitem">
+                        <a className="navlink" href="#skillset">Skill set</a>
                     </li>
-                    <li class="navitem">
-                        <a class="navlink" href="#projects">Projects</a>
+                    <li className="navitem">
+                        <a className="navlink" href="#projects">Projects</a>
                     </li>
-                    <li class="navitem">
-                        <a class="navlink" href="#contactbox">Contact me</a>
+                    <li className="navitem">
+                        <a className="navlink" href="#contactbox">Contact me</a>
                     </li>
                 </ul>
             </div>

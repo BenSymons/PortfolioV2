@@ -92,7 +92,6 @@ h3{
   .skills{
     margin: 20px 5px;
     padding: 2px;
-
   }
 }
 
@@ -212,9 +211,21 @@ section{
   position: fixed;
 }
 
+.burgerMenu{
+  height: 10vh;
+  width: 100vw;
+  background-color: rgb(92, 213, 243);
+  background-image: linear-gradient(rgb(92, 213, 243),rgb(92, 213, 243), rgb(49, 110, 126));
+  position: fixed;
+  display: none;
+}
+
 @media only screen and (max-width: 800px) {
   .nav{
     display: none;
+  }
+  .burgerMenu {
+    display: flex;
   }
 }
 
@@ -242,4 +253,17 @@ html {
 
 #contactbox{
   background-color: #343842;
+}
+
+.hidden{
+  position: static;
+  display: none;
+}
+
+/* .burgerBox{
+  position:absolute
+} */
+
+.menu{
+  position: relative
 }

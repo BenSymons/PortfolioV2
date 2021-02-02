@@ -4,7 +4,7 @@ const projects = () => {
     return (<div id="projectbox">
         <section id="projects">
             <h1>Projects</h1>
-            <div class="projectslot">
+            <div className="projectslot">
                 <div>
                     <h2>Mates Rates</h2>
                     <p>This is a mobile app used to rate and review restaurants that also has some social networking aspects.
@@ -19,12 +19,12 @@ const projects = () => {
                     on whether they are already in your friends list.
                     <br />
                         <br />
-                        <a href="https://github.com/BenSymons/MatesRates" target="blank" class="repolink">Link</a> to the repository on github
+                        <a href="https://github.com/BenSymons/MatesRates" target="blank" className="repolink">Link</a> to the repository on github
                     </p>
                 </div>
-                <img class="projectimg" src="./images/Mates rates pic.png" alt="a restaurant rating phone app"></img>
+                <img className="projectimg" src="./images/Mates rates pic.png" alt="a restaurant rating phone app"></img>
             </div>
-            <div class="projectslot">
+            <div className="projectslot">
                 <div>
                     <h2>NC news</h2>
                     <p>This is a full stack news/forum application that I made. It uses SQL (postgres) and a Restful API in the backend
@@ -40,12 +40,12 @@ const projects = () => {
                     the list of articles and comments move in from the bottom as an animation.
                     <br />
                         <br />
-                        <a href="https://github.com/BenSymons/Nc-News" target="blank" class="repolink">Link</a> to the repository on github.
+                        <a href="https://github.com/BenSymons/Nc-News" target="blank" className="repolink">Link</a> to the repository on github.
                     </p>
                 </div>
-                <img class="projectimg" src="./images/NCnewspic.png" alt="a news website"></img>
+                <img className="projectimg" src="./images/NCnewspic.png" alt="a news website"></img>
             </div>
-            <div class="projectslot">
+            <div className="projectslot">
                 <div>
                     <h2>Rick and Morty fan site</h2>
                     <p>This is a simple fan site for the program Rick and Morty. It uses a third party API with a GraphQL endpoint
@@ -57,12 +57,12 @@ const projects = () => {
                     The search functionality and the pagination both make use of GraphQL variables which are passed into the queries.
                     <br />
                         <br />
-                        <a href="https://github.com/BenSymons/Rick-and-Morty" target="blank" class="repolink">Link</a> to the repository on github.
+                        <a href="https://github.com/BenSymons/Rick-and-Morty" target="blank" className="repolink">Link</a> to the repository on github.
                     </p>
                 </div>
-                <img class="projectimg" src="./images/Rick&Mortypic.png" alt="a Rick and Morty fan website"></img>
+                <img className="projectimg" src="./images/Rick&Mortypic.png" alt="a Rick and Morty fan website"></img>
             </div>
-            <div class="projectslot">
+            <div className="projectslot">
                 <div>
                     <h2>Antique shop back end</h2>
                     <p>This is the backend for a database for a fictitious antiques shop. It uses an SQL (postgres) database and an MVC
@@ -74,10 +74,10 @@ const projects = () => {
                     util functions which modify the data to allow it to interact with our database.
                     <br />
                         <br />
-                        <a href="https://github.com/BenSymons/be-mitchs-rare-treasures" target="blank" class="repolink">Link</a> to the repository on github.
+                        <a href="https://github.com/BenSymons/be-mitchs-rare-treasures" target="blank" className="repolink">Link</a> to the repository on github.
                     </p>
                 </div>
-                <img class="projectimg" src="./images/Treasurespic.png" alt="some computer code"></img>
+                <img className="projectimg" src="./images/Treasurespic.png" alt="some computer code"></img>
             </div>
         </section>
     </div>

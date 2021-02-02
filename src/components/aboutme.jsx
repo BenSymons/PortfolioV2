@@ -2,10 +2,10 @@ import React from "react"
 
 const aboutme = () => {
     return (
-        <div id="aboutme" class="aboutmebox">
+        <div id="aboutme" className="aboutmebox">
             <section>
                 <h1>About me</h1>
-                <div class="aboutmecontent">
+                <div className="aboutmecontent">
                     <p>I'm a former teacher who tried his hand at coding and ended up really enjoying it.
                     When I taught, I used to handle assessment data; grades, tests scores, things like that.
                     To do this, I mainly used Excel and I was amazed at how much you can do with formulae and functions.
@@ -26,11 +26,11 @@ const aboutme = () => {
                     where you compete to complete a game as fast as possible. It takes a lot of skill and practice and it's
                     lots of fun! I'm also a big fan of science and I enjoy watching science documentaries and videos on youtube.
                     I also make my own youtube videos as well. Most of these are tutorials for minecraft. Here's a link to my
-                    <a href="https://www.youtube.com/channel/UCRuWvCWVhUv-HxAGo2RgY2Q" class="repolink" target="blank"> Youtube </a>
+                    <a href="https://www.youtube.com/channel/UCRuWvCWVhUv-HxAGo2RgY2Q" className="repolink" target="blank"> Youtube </a>
                     channel if you want to check it out. I record and edit all the videos myself.</p>
-                    <div class="gallery">
-                        <img src="./images/Me and Woody.jpg" class="photo" alt="Me with my Nephew"></img>
-                        <img src="./images/me at BeastV.jpg" class="photo" alt="Me smiling"></img>
+                    <div className="gallery">
+                        <img src="./images/Me and Woody.jpg" className="photo" alt="Me with my Nephew"></img>
+                        <img src="./images/me at BeastV.jpg" className="photo" alt="Me smiling"></img>
                     </div>
                 </div>
             </section>
