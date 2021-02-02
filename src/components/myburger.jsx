@@ -10,7 +10,7 @@ const Burger = () => {
 
     return (<div className="burgerBox">
         <div className="burgerMenu">
-            <button onClick={() => handleClick()}><AiOutlineMenu /></button>
+            <button id="burgerButton" onClick={() => handleClick()}><AiOutlineMenu /></button>
         </div>
         <div className={hidden}>
             <ul className="nobullets">
