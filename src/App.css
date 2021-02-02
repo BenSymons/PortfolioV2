@@ -167,6 +167,7 @@ section{
 
 .nobullets{
   list-style-type: none;
+  padding-left: 0;
 }
 
 .aboutme{
@@ -260,10 +261,27 @@ html {
   display: none;
 }
 
-/* .burgerBox{
-  position:absolute
-} */
+.burgerBox{
+  position: fixed; 
+}
 
 .menu{
-  position: relative
+  margin-top: 10vh;
+  background-image: linear-gradient(rgb(98, 132, 146), grey);
+  border: black;
+  text-align: left;
+}
+
+.burgerItem{
+  text-align: left;
+  text-decoration: none;
+  background-color: rgb(92, 213, 243);
+  padding: 2px 10px;
+  margin: 6px;
+  font-size: 18pt;
+}
+
+.burgerLink {
+  text-decoration: none;
+  color: rgb(53, 53, 53)
 }

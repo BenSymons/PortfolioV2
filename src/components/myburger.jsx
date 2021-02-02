@@ -6,7 +6,6 @@ const Burger = () => {
 
     const handleClick = () => {
         hidden === "hidden" ? setHidden("menu") : setHidden("hidden")
-        console.log(hidden)
     }
 
     return (<div className="burgerBox">
@@ -14,12 +13,32 @@ const Burger = () => {
             <button onClick={() => handleClick()}><AiOutlineMenu /></button>
         </div>
         <div className={hidden}>
-            <ul>
-                <li><a href="#top">Home</a></li>
-                <li><a href="#aboutme">About me</a></li>
-                <li><a href="#skillset">Skill set</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contactbox">Contact me</a></li>
+            <ul className="nobullets">
+                <li>
+                    <div className="burgerItem">
+                        <a className="burgerLink" href="#top">Home</a>
+                    </div>
+                </li>
+                <li>
+                    <div className="burgerItem">
+                        <a className="burgerLink" href="#aboutme">About me</a>
+                    </div>
+                </li>
+                <li>
+                    <div className="burgerItem">
+                        <a className="burgerLink" href="#skillset">Skill set</a>
+                    </div>
+                </li>
+                <li>
+                    <div className="burgerItem">
+                        <a className="burgerLink" href="#projects">Projects</a>
+                    </div>
+                </li>
+                <li>
+                    <div className="burgerItem">
+                        <a className="burgerLink" href="#contactbox">Contact me</a>
+                    </div>
+                </li>
             </ul>
         </div>
     </div>
